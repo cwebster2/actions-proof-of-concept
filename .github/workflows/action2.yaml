@@ -1,5 +1,5 @@
  ￼
-name: Works at all second edition
+name: Works at all
 
 on: [push]
 
@@ -8,6 +8,6 @@ jobs:
     name: Test Job
     runs-on: ubuntu-latest
     steps:
-      - name: Print Hello World 2
+      - name: Print Hello World
         run: |
-          echo Hello World 2
+          echo Hello World
