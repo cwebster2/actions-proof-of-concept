@@ -1,0 +1,12 @@
+name: Works at all
+
+on: [push]
+
+jobs:
+  my-job:
+    name: Test Job
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print Hello World
+        run: |
+          echo Hello World
